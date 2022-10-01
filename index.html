@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LeeSeokwoo</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <h1 class="sr-only">이석우의 이력서</h1>
+        <div class="container p-6 md:m-auto">
+            <header class="text-center md:flex md:flex-row">
+                <!-- 헤더를 그리드로 짜고 싶었으나 가로가 똑같은 비율로만 나뉘어서 실패! -->
+                <img class="w-32 h-32 rounded-full mx-auto md:mx-8" src="profile.png" alt="프로필 사진" />
+                <div class="md:flex md:flex-row">
+                    <h2 class="my-4 text-5xl font-bold">이석우</h2>
+                    <p class="text-sm font-bold md:sr-only">연락처</p>
+                    <ul class="text-sm md:mt-auto">
+                        <li>모바일 : 010-2968-5028</li>
+                        <li>메일 : <a href="mailto:ShineLee@likelion.org">ShineLee@likelion.org</a></li>
+                        <li>깃허브 : <a href="https://github.com/Skylark92" target="_blank">https://github.com/Skylark92</a></li>
+                    </ul>
+                </div>
+            </header>
+            <hr class="my-4" />
+            <main class="grid grid-cols-1 gap-6 md:grid-cols-4">
+                <section class="section-skills md:col-start-1">
+                    <h3 class="pl-2 border-l-8 border-[#3EAF0E] text-lg font-bold">기술</h3>
+                    <div class="flex flex-row justify-center items-center">
+                        <h4 class="text-lg font-bold text-gray-500 my-auto leading-4">Front-end</h4>
+                        <ol class="ml-4 pl-4 border-l-2">
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Sass</li>
+                            <li>Tailwind</li>
+                        </ol>
+                    </div>
+                </section>
+                <section class="section-achives md:col-span-3 md:row-span-3">
+                    <h3 class="pl-2 border-l-8 border-[#3EAF0E] text-lg font-bold">성과</h3>
+                    <p class="mt-4 font-bold bg-gray-200 w-fit">1만시간의법칙 페이지 제작</p>
+                    <small>2022.09.20~2022.09.21</small>
+                    <p class="px-4 border-r-2 border-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem!</p>
+                    <p class="mt-4 font-bold bg-gray-200 w-fit">벤딩머신 페이지 제작</p>
+                    <small>2022.09.27~2022.09.29</small>
+                    <p class="px-4 border-r-2 border-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium quis quas unde facere, ipsam incidunt corrupti.</p>
+                    <p class="mt-4 font-bold bg-gray-200 w-fit">렌딩 페이지 제작</p>
+                    <small>2022.09.30~2022.10.2</small>
+                    <p class="px-4 border-r-2 border-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quod ut reprehenderit mollitia dolorum culpa numquam illum quos dolore exercitationem!</p>
+                    <p class="mt-4 font-bold bg-gray-200 w-fit">감귤마켓 페이지 제작</p>
+                    <small>2022.10.22~2022.10.29</small>
+                    <p class="px-4 border-r-2 border-gray-400">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum officia explicabo, esse molestiae magni sit quae laboriosam optio, voluptatum similique, nam fuga fugiat quisquam itaque distinctio dicta veritatis cumque
+                        officiis.
+                    </p>
+                    <p class="mt-2 font-bold bg-gray-200 w-fit">프로젝트 1</p>
+                    <small>2022.10.31~2022.11.14</small>
+                    <p class="px-4 border-r-2 border-gray-400">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum officia explicabo, esse molestiae magni sit quae laboriosam optio, voluptatum similique, nam fuga fugiat quisquam itaque distinctio dicta veritatis cumque
+                        officiis.
+                    </p>
+                </section>
+                <section class="section-educations md:col-start-1">
+                    <h3 class="pl-2 border-l-8 border-[#3EAF0E] text-lg font-bold">교육</h3>
+                    <p class="text-right font-bold">멋쟁이사자처럼 Front-End School 3기 <span class="sr-only md:not-sr-only">수료</span></p>
+                    <p class="text-right" t>2022.08.29~2023.01.06</p>
+                </section>
+                <section class="section-tellyou md:col-start-1">
+                    <h3 class="pl-2 border-l-8 border-[#3EAF0E] text-lg font-bold">드리는 말씀</h3>
+                    <p>
+                        가파른 성장세에 있는 신입 개발자입니다. 개발에 발을 들인 지 얼마 되지 않았지만, 프로젝트 1과 같은 실제 프로젝트를 수월하게 진행할 수 있을 만큼 실력을 쌓았습니다. 보유한 기술들로 귀사에 보탬이 되고 회사의 성장과 함께
+                        성장해나가는 개발자가 되고 싶습니다.
+                    </p>
+                    <p class="mt-4 text-right">저의 이력서를 봐주셔서 감사합니다.</p>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
